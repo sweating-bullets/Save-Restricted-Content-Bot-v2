@@ -6,21 +6,19 @@ from os import getenv
 # VPS --- FILL COOKIES 🍪 in """ ... """ 
 
 INST_COOKIES = """
-# wtite up here insta cookies
-"""
+# wtite up here insta cookies"""
 
 YTUB_COOKIES = """
-# write here yt cookies
-"""
+# write here yt cookies"""
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
-MONGO_DB = getenv("MONGO_DB", "")
-LOG_GROUP = getenv("LOG_GROUP", "")
-CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
-FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
+API_ID = int(getenv("API_ID", "20870930"))
+API_HASH = getenv("API_HASH", "d8339c188abe7b852e52ef2d0d48c770")
+BOT_TOKEN = getenv("BOT_TOKEN", "7587931170:AAEIP7lYoFB8xq414C-wReEsvPG8UiA8B6U")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1760032652").split()))
+MONGO_DB = getenv("MONGO_DB", "mongodb+srv://pandagaming17:vR5XKnFV57fubEnH@cluster0.efm8s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP = getenv("LOG_GROUP", "-1002308118349")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002217595765"))
+FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "20"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
 AD_API = getenv("AD_API", "52b4a2cf4687d81e7d3f8f2b7bc2943f618e78cb")
