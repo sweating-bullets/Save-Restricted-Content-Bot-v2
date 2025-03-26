@@ -11,13 +11,13 @@ INST_COOKIES = """
 YTUB_COOKIES = """
 # write here yt cookies"""
 
-API_ID = int(getenv("API_ID", "20870930"))
-API_HASH = getenv("API_HASH", "d8339c188abe7b852e52ef2d0d48c770")
-BOT_TOKEN = getenv("BOT_TOKEN", "7587931170:AAEIP7lYoFB8xq414C-wReEsvPG8UiA8B6U")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1760032652").split()))
-MONGO_DB = getenv("MONGO_DB", "mongodb+srv://pandagaming17:vR5XKnFV57fubEnH@cluster0.efm8s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOG_GROUP = getenv("LOG_GROUP", "-1002308118349")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002217595765"))
+API_ID = int(getenv("API_ID","20870930"))
+API_HASH = getenv("API_HASH","d8339c188abe7b852e52ef2d0d48c770")
+BOT_TOKEN = getenv("BOT_TOKEN","7587931170:AAEIP7lYoFB8xq414C-wReEsvPG8UiA8B6U")
+OWNER_ID = list(map(int,getenv("OWNER_ID","1760032652").split()))
+MONGO_DB = getenv("MONGO_DB","mongodb+srv://pandagaming17:vR5XKnFV57fubEnH@cluster0.efm8s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP = getenv("LOG_GROUP","-1002308118349")
+CHANNEL_ID = int(getenv("CHANNEL_ID","-1002217595765"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "20"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
