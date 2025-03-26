@@ -19,7 +19,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7204264529:AAH_e8BqDrR9y5vor1cZlSqgZCU7ccnSuNw"
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1760032652").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://adilphatan001:osWpVi8W3UFewphF@cluster0.cplhbfu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 LOG_GROUP = getenv("LOG_GROUP", "-1002308118349")
-CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002217595765"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
