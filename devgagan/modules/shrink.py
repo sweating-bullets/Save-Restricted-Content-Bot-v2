@@ -74,8 +74,8 @@ async def token_handler(client, message):
     user_id = message.chat.id
     if len(message.command) <= 1:
         image_url = "https://i.postimg.cc/v8q8kGyz/startimg-1.jpg"
-        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/team_spy_pro")
-        premium = InlineKeyboardButton("Get Premium", url="https://t.me/kingofpatal")   
+        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/+917PsgxFujMyMjQ1")
+        premium = InlineKeyboardButton("Get Premium", url="https://t.me/contactmehelpdeskbot")   
         keyboard = InlineKeyboardMarkup([
             [join_button],   
             [premium]    
@@ -109,7 +109,7 @@ async def token_handler(client, message):
                 "expires_at": datetime.utcnow() + timedelta(hours=3),
             })
             del Param[user_id]   
-            await message.reply("✅ You have been verified successfully! Enjoy your session for next 3 hours.")
+            await message.reply("✅ You have been verified successfully! Enjoy your session for next 3 hours. 𝙈𝙖𝙖𝙧 𝙈𝙤𝙟!!!😉")
             return
         else:
             await message.reply("❌ Invalid or expired verification link. Please generate a new token.")
@@ -124,7 +124,7 @@ async def smart_handler(client, message):
         await message.reply("You are a premium user no need of token 😉")
         return
     if await is_user_verified(user_id):
-        await message.reply("✅ Your free session is already active enjoy!")
+        await message.reply("✅ Your free session is already active. 𝙈𝙖𝙖𝙧 𝙈𝙤𝙟!😉")
     else:
          
         param = await generate_random_param()
